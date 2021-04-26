@@ -198,9 +198,11 @@ Using the miles function below do the following:
   3. Return the number of miles
 */
 
-function miles(km,factor){
+function miles(km){
   return km * 0.621371;
 }
+
+miles(100);
 
 
 
@@ -212,10 +214,11 @@ Using the feet function below do the following:
   3. Return number of feet
 */
 
-function feet(/*add your code here*/){
-    /*add your code here*/
+function feet(cm){
+  return cm / 30.48;
   }
  
+feet(100);
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -228,9 +231,11 @@ Using the annoyingSong function below do the following:
       "{number} bottles of soda on the wall, {number} bottles of soda, take one down pass it around {number left over} bottles of soda on the wall"
 */
 
-function annoyingSong(/*add your code here*/){
-        /*add your code here*/
-  }
+function annoyingSong(num){
+  return (num + " bottles of soda on the wall, " + num + " bottles of soda, take one down pass it around " + (num-1) + " bottles of soda on the wall")
+}
+
+annoyingSong(22);
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
