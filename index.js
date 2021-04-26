@@ -181,7 +181,7 @@ function game(user, computer){
   }
 }
 
-game('rock', 'paper');
+game('rock','paper');
 game('paper','paper');
 game('scissors','rock');
   
@@ -198,9 +198,9 @@ Using the miles function below do the following:
   3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-    /*add your code here*/
-  }
+function miles(km,factor){
+  return km * 0.621371;
+}
 
 
 
