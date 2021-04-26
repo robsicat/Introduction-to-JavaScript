@@ -144,6 +144,8 @@ function hungryDog(weight,years){
   }else if(age <= 0.5833333333 & age < 1){
 }
 
+hungryDog(10,.25);
+
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -302,11 +304,6 @@ Using the vowelCounter function below do the following:
   HINT - you may need to study tomorrow's content on arrays 
   HINT - try looking up the .includes() method
 */
-
-
-function vowelCounter(/*add your code here*/) {
-    /*add your code here*/
-}
 
 
 
